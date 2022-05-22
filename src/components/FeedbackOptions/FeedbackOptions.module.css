@@ -1,0 +1,14 @@
+.btn {
+  padding: 15px;
+  cursor: pointer;
+  background-color: rgb(131, 162, 247);
+  color: rgb(238, 255, 0);
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
