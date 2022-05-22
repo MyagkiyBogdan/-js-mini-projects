@@ -1,0 +1,9 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+@import './global';
+@import './photoFinder/search-form';
+@import './photoFinder/photo-cards';
+@import './mainPage/main-page';
+@import './countrySearch/country-search';
