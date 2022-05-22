@@ -17,13 +17,19 @@
 .search-input {
   display: block;
   border: none;
-  min-width: 250px;
+  width: 150px;
+  margin-left: auto;
   padding: 8px 9px;
   font-size: 14px;
   color: inherit;
   border: 1px solid transparent;
   border-radius: inherit;
-
+  @media screen and (min-width: 400px) {
+    min-width: 250px;
+  }
+  @media screen and (min-width: 500px) {
+    margin-left: 0;
+  }
   &::placeholder {
     color: #bbb;
   }
@@ -72,5 +78,8 @@
 }
 
 .return-btn--no-margin {
-  margin: 0 10px 0 0;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  margin: 0 0 0 0;
 }
