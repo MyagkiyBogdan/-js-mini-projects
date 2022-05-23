@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="image/x-icon" rel="shortcut icon" href="../images/js.ico" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <a type="button" href="../index.html" class="return-btn">Return</a>
+
+    <section class="customers-review">
+      <h2 class="customers-riview__title visually-hidden">Customers reviews</h2>
+      <div class="container-slider">
+        <div class="review-slider">
+          <div class="review-slider__item">
+            <img
+              srcset="../images/face1_1x.png 1x, ../images/face1_2x.png 2x"
+              src="../images/face1_1x.png"
+              alt="First reviewer photo"
+              class="review-slider__img"
+            />
+            <div class="review-slider__wrapper">
+              <div class="review-slider__gradient">
+                <p class="review-slider__text">
+                  Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In
+                  hendrerit nulla quam nunc, accumsan congue.
+                  <span
+                    class="txt-rotate"
+                    data-period="2000"
+                    data-rotate='[ " Lorem ipsum primis in nibh vel risus." ]'
+                  ></span>
+                </p>
+              </div>
+            </div>
+            <p class="review-slider-dots__text">Emily, Los Angeles</p>
+          </div>
+
+          <div class="review-slider__item">
+            <img
+              srcset="../images/face2_1x.png 1x, ../images/face2_2x.png 2x"
+              src="../images/face2_1x.png"
+              alt="Second reviewer photo"
+              class="review-slider__img"
+            />
+            <div class="review-slider__wrapper">
+              <div class="review-slider__gradient">
+                <p class="review-slider__text">
+                  In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel
+                  risus. Nullam viverra consectetuer.
+                  <span
+                    class="txt-rotate"
+                    data-period="2000"
+                    data-rotate='[ " Quisque cursus et, porttitor risus. Aliquam sem." ]'
+                  ></span>
+                </p>
+              </div>
+            </div>
+            <p class="review-slider-dots__text">Alexa, New-York</p>
+          </div>
+
+          <div class="review-slider__item">
+            <img
+              srcset="../images/face3_1x.png 1x, ../images/face3_2x.png 2x"
+              src="../images/face3_1x.png"
+              alt="Third"
+              class="review-slider__img"
+            />
+            <div class="review-slider__wrapper">
+              <div class="review-slider__gradient">
+                <p class="review-slider__text">
+                  Quisque cursus et, porttitor risus. Aliquam sem. Nullam viverra consectetuer. In
+                  hendrerit nulla quam nunc, accumsan congue.
+                  <span
+                    class="txt-rotate"
+                    data-period="2000"
+                    data-rotate='[ " Quisque cursus et, lorem ipsum primis." ]'
+                  ></span>
+                </p>
+              </div>
+            </div>
+            <p class="review-slider-dots__text">Sandra, Denver</p>
+          </div>
+          <a class="review-slider__prev" id="slidePrev"></a>
+          <a class="review-slider__next" id="slideNext"></a>
+        </div>
+
+        <div class="review-slider-dots">
+          <span class="review-slider-dots__item" id="slideOne"></span>
+          <span class="review-slider-dots__item" id="slideTwo"></span>
+          <span class="review-slider-dots__item" id="slideThree"></span>
+        </div>
+      </div>
+    </section>
+
+    <script src="../js/slider/customer-review.js"></script>
+    <script src="../js/slider/slider.js"></script>
+  </body>
+</html>

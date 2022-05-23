@@ -24,13 +24,13 @@
   cursor: pointer;
 }
 
-input,
-textarea {
+.feedback-form input,
+.feedback-form textarea {
   padding: 8px;
   font: inherit;
 }
 
-textarea {
+.feedback-form textarea {
   resize: none;
 }
 

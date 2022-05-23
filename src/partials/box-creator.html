@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="image/x-icon" rel="shortcut icon" href="./images/js.ico" />
+    <title>Box creator</title>
+  </head>
+  <body>
+    <p><a href="../index.html" class="return-btn">Return</a></p>
+    <div class="container-project">
+      <h1 class="page-title" id="colorSwitcherTitle">Box creator</h1>
+      <p class="feedback-ls-text">
+        Creates collections of the written number of elements. Each element is 10px wider and higher
+        than the previous one. Each element gets a random color.
+      </p>
+      <div id="controls">
+        <input type="number" min="1" max="100" step="1" class="box-input" />
+        <div class="btn-stopwatch-wrapper">
+          <button type="button" class="btn btn--mrg-right" data-create>Create</button>
+          <button type="button" class="btn" data-destroy>Destroy</button>
+        </div>
+      </div>
+
+      <div id="boxes"></div>
+    </div>
+    <script src="../js/boxCreator/boxCreator.js" type="module"></script>
+  </body>
+</html>
