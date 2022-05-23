@@ -8,22 +8,24 @@
   </head>
   <body>
     <p><a href="../index.html" class="return-btn">Return</a></p>
-
-    <form class="form form-promises">
-      <label class="label-promises">
-        First delay (ms)
-        <input type="number" name="delay" class="input-promises" required />
-      </label>
-      <label class="label-promises">
-        Delay step (ms)
-        <input type="number" name="step" class="input-promises" required />
-      </label>
-      <label class="label-promises">
-        Amount
-        <input type="number" name="amount" class="input-promises" required />
-      </label>
-      <button type="submit" class="btn">Create promises</button>
-    </form>
+    <div class="container-project">
+      <h1 class="page-title title--margin-top">Promises generator</h1>
+      <form class="form form-promises">
+        <label class="label-promises">
+          First delay (ms)
+          <input type="number" name="delay" class="input-promises" required />
+        </label>
+        <label class="label-promises">
+          Delay step (ms)
+          <input type="number" name="step" class="input-promises" required />
+        </label>
+        <label class="label-promises">
+          Amount
+          <input type="number" name="amount" class="input-promises" required />
+        </label>
+        <button type="submit" class="btn promise-btn">Create promises</button>
+      </form>
+    </div>
 
     <script src="../js/promisesCreator/promisesCreator.js"></script>
   </body>

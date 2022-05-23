@@ -2,6 +2,8 @@ import '../../sass/main.scss';
 const refs = {
   startBtn: document.querySelector('[data-start]'),
   stopBtn: document.querySelector('[data-stop]'),
+  title: document.querySelector('#colorSwitcherTitle'),
+  text: document.querySelector('#colorSwitcherText'),
   body: document.querySelector('body'),
 };
 
@@ -14,6 +16,8 @@ refs.stopBtn.addEventListener('click', onClickStopColorChange);
 function onClickStartColorChange() {
   timerId = setInterval(() => {
     refs.body.style.backgroundColor = getRandomHexColor();
+    refs.title.style.color = getRandomHexColor();
+    refs.text.style.color = getRandomHexColor();
   }, 1000);
 
   removeDisabledAtr(refs.stopBtn);

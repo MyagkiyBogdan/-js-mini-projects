@@ -24,13 +24,21 @@
 }
 
 .btn--small {
-  margin-left: 15px;
-  padding: 5px 15px;
+  margin-left: auto;
+  padding: 5px 100px;
   font-size: 16px;
 }
 
+.promise-btn {
+  height: 50px;
+  margin-top: 27px;
+}
 .btn--mrg-left {
   margin-left: 20px;
+}
+
+.btn--mrg-right {
+  margin-right: 20px;
 }
 
 .btn--mrg-left:first-of-type {
@@ -38,11 +46,9 @@
 }
 
 .btn-stopwatch-wrapper {
-  margin-top: 100px;
-  margin-left: 25px;
   max-width: 200px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
 
 .btn:disabled {
@@ -68,8 +74,6 @@
 }
 
 .data-timer {
-  margin-top: 50px;
-  margin-left: 15px;
   font-weight: 700;
   font-size: 16px;
   padding: 5px 8px;
@@ -110,8 +114,19 @@
 
 .form-promises {
   margin-left: 20px;
+  font-size: 20px;
 
   @media screen and (min-width: 768px) {
     display: flex;
   }
+}
+
+.title--margin-top {
+  margin-top: 100px;
+}
+
+.color-switcher-btn {
+  margin-left: auto;
+  width: 200px;
+  height: 50px;
 }

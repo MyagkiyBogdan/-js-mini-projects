@@ -1,0 +1,45 @@
+.feedback-form {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 12px;
+  background-color: #f7fac7;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  @media screen and (min-width: 500px) {
+    width: 480px;
+  }
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.feedback-form button {
+  padding: 8px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  padding: 8px;
+  font: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+.feedback-ls-text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+  width: 320px;
+  @media screen and (min-width: 680px) {
+    width: 480px;
+  }
+}

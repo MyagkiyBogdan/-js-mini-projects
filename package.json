@@ -30,6 +30,8 @@
     "notiflix": "^3.2.5",
     "simplelightbox": "^2.10.3",
     "lodash.debounce": "^4.0.8",
+    "@vimeo/player": "^2.16.4",
+    "lodash.throttle": "^4.1.1",
     "flatpickr": "^4.6.13"
   }
 }

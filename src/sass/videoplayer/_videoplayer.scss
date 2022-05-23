@@ -1,0 +1,16 @@
+.video-player {
+  width: 320px;
+  @media screen and (min-width: 680px) {
+    width: 640px;
+  }
+}
+
+.video-player-text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+  width: 320px;
+  @media screen and (min-width: 680px) {
+    width: 640px;
+  }
+}
