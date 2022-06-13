@@ -10,4 +10,6 @@ function savePlayerValueTimer(event) {
   localStorage.setItem('videoplayer-current-time', event.seconds);
 }
 
-player.setCurrentTime(localStorage.getItem('videoplayer-current-time'));
+if (localStorage.getItem('videoplayer-current-time')) {
+  player.setCurrentTime(localStorage.getItem('videoplayer-current-time'));
+}
